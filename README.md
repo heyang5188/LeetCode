@@ -5,6 +5,10 @@ LeetCode
 
 | # | Title | Solution | Difficulty | Categery |
 |---| ----- | -------- | ---------- | -------  |
+|11|[349.Intersection_of_TwoArrays](https://leetcode-cn.com/problems/intersection-of-two-arrays/description/) | [Python](./Python/array/349.Intersection_of_TwoArrays.py),[C++](./array/349.Intersection_of_Two_Arrays.cc)| Easy | Array | 
+|10|[981. Time Based Key-Value Store](https://leetcode-cn.com/contest/weekly-contest-121/problems/time-based-key-value-store/) | [C++](./design/981.Time_Based_Key-Value_Store.cc)| Medium | Design | 
+|9|[984.StringWithout_AAA_or_BBB](https://leetcode-cn.com/contest/weekly-contest-121/problems/string-without-aaa-or-bbb/) | [C++](./string/984.StringWithout_AAA_or_BBB.cc)| Easy | String | 
+|8|[136.SingleNumber](https://leetcode-cn.com/problems/single-number/description/) | [C++](./array/136.Single_Number.cc)| Easy | Array | 
 |7|[146.LRU_Cache](https://leetcode-cn.com/problems/lru-cache/description/) | [C++](./design/146.LRU_Cache.cc)| Hard | Design | 
 |6|[208.Implement_Trie_(Prefix_Tree)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/description/) | [C++](./design/208.Implement_Trie_(Prefix_Tree).cc)| Medium | Design | 
 |5|[784. Letter_Case_Permutation](https://leetcode-cn.com/problems/letter-case-permutation/description/) | [C++](./DFS/784.Letter_Case_Permutation.cc)| Easy | DFS | 
