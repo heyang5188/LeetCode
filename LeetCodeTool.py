@@ -1,16 +1,20 @@
 # -*- coding: utf-8 -*-
-# file = open("test.txt",encoding='utf-8')
 import os
+import time
 name = input("please in put your problem name:")
-name = name.replace(" ", "_")
+name = name.replace(" ", "")
 path = input("please in put your Problem Path:")
 pwd = os.path.abspath(path)
 back = ''
 fileName = ''
 if name.endswith('.cc'):
     f = open(os.path.join(pwd, name), 'w+', encoding='utf-8')  # 重新写入文件
-    s = "#include <iostream>\n#include <string>\n#include <map>\n#include <unordered_map>\n"
-    s += "#include <vector>\nusing namespace std;\n"
+    s = "// Author Herb \n// Time : "
+    s += time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+    s += "\n#include <iostream>\n#include <string>\n#include <map>\n#include <unordered_map>\n"
+    s += "#include <vector>\n#include <queue>\nusing namespace std;\n"
+    s += "struct ListNode { int val; ListNode* next; ListNode(int x): val(x),next(NULL){}};\n"
+    s += "struct TreeNode {int val;TreeNode* left;TreeNode* right;TreeNode(int x): val(x), left(nullptr), right(nullptr){}};\n"
     f.write(s)
     f.close()
     back = "C++"
@@ -21,7 +25,7 @@ else:
     f.write(s)
     f.close()
     back = "Python"
-
+# 读取整个文件进入内存
 lines = []
 f = open("F:\\project\\LeetCode\\README.md",
          'r', encoding='utf-8')  # your path!
@@ -43,7 +47,7 @@ print(name)
 stringToInsert = ""
 stringToInsert += "|" + str(Number) + "|"
 stringToInsert += "[" + fileName + "]" + "(" + Http + ") |"
-stringToInsert += "[" + back + "]" + "("+ os.path.join(path,name) + ") |"
+stringToInsert += "[" + back + "]" + "("+ os.path.join(path,name).replace('\\','/') + ") |"
 stringToInsert += diff + "|"
 stringToInsert += cate + "|\n"
 print(stringToInsert)
