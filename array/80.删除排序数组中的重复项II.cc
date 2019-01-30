@@ -1,5 +1,5 @@
 // Author Herb 
-// Time : 2019-01-29 16:38:09
+// Time : 2019-01-29 16:40:04
 #include <iostream>
 #include <string>
 #include <map>
@@ -12,13 +12,10 @@ struct TreeNode {int val;TreeNode* left;TreeNode* right;TreeNode(int x): val(x),
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        if(nums.size() == 0) return 0;
-        int low = 0;
-        for(int i = 0; i < nums.size(); i++)
-        {
-            if(nums[low]!=nums[i])
-                nums[++low] = nums[i];
-        }
-        return low+1;
+         int i = 0;
+        for (int n : nums)
+            if (i < 2 || n > nums[i-2])
+                nums[i++] = n;
+        return i;
     }
 };

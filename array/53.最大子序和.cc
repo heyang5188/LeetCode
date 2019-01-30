@@ -1,5 +1,5 @@
 // Author Herb 
-// Time : 2019-01-29 16:38:09
+// Time : 2019-01-29 17:40:57
 #include <iostream>
 #include <string>
 #include <map>
@@ -11,14 +11,14 @@ struct ListNode { int val; ListNode* next; ListNode(int x): val(x),next(NULL){}}
 struct TreeNode {int val;TreeNode* left;TreeNode* right;TreeNode(int x): val(x), left(nullptr), right(nullptr){}};
 class Solution {
 public:
-    int removeDuplicates(vector<int>& nums) {
-        if(nums.size() == 0) return 0;
-        int low = 0;
-        for(int i = 0; i < nums.size(); i++)
+   	int maxSubArray(vector<int>& nums) {
+        int sum = nums[0],b=0;
+        for(int i = 0;i < nums.size(); i++)
         {
-            if(nums[low]!=nums[i])
-                nums[++low] = nums[i];
+            if(b>0)b+=nums[i];
+            else b = nums[i];
+            if(b>sum) sum = b;
         }
-        return low+1;
+        return sum;
     }
 };

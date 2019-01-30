@@ -4,6 +4,13 @@ LeetCode
 
 | # | Title | Solution | Difficulty | Categery |
 |---| ----- | -------- | ---------- | -------  |
+|31|[66.加一](https://leetcode-cn.com/problems/plus-one/description/) |[C++](array/66.加一.cc) |Easy|Array|
+|30|[61.旋转链表](https://leetcode-cn.com/problems/rotate-list/description/) |[C++](List/61.旋转链表.cc) |Medium|List|
+|29|[53.最大子序和](https://leetcode-cn.com/problems/maximum-subarray/description/) |[C++](array/53.最大子序和.cc) |Easy|Array|
+|28|[83.删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/) |[C++](List/83.删除排序链表中的重复元素.cc) |Easy|List|
+|27|[80.删除排序数组中的重复项II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/description/) |[C++](Array/80.删除排序数组中的重复项II.cc) |Medium|Array|
+|26|[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/) |[C++](array/26.删除排序数组中的重复项.cc) |Easy|Array|
+|25|[148.排序链表](https://leetcode-cn.com/problems/sort-list/description/) |[C++](List/148.排序链表.cc) |Medium|List|
 |24|[35.搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/description/) |[C++](array/35.搜索插入位置.cc) |Easy|Array|
 |23|[28.实现strStr()](https://leetcode-cn.com/problems/implement-strstr/description/) |[C++](string/28.实现strStr().cc) |Easy|String|
 |22|[27.移除元素](https://leetcode-cn.com/problems/remove-element/description/) |[C++](array/27.移除元素.cc) |Easy|Array|
