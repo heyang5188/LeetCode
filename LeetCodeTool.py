@@ -1,3 +1,4 @@
+#!C:\Users\Administrator\AppData\Local\Programs\Python\Python37
 # -*- coding: utf-8 -*-
 import os
 import time

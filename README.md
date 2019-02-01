@@ -4,6 +4,10 @@ LeetCode
 
 | # | Title | Solution | Difficulty | Categery |
 |---| ----- | -------- | ---------- | -------  |
+|35|[48.旋转图像](https://leetcode-cn.com/problems/rotate-image/description/) |[C++](array/Matrix/48.旋转图像.cc) |Medium|Matrix|
+|34|[144.二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/) |[C++](tree/144.二叉树的前序遍历.cc) |Medium|Tree|
+|33|[684.冗余连接](https://leetcode-cn.com/problems/redundant-connection/description/) |[C++](union_find/684.冗余连接.cc) |Medium|Union_find|
+|32|[50.Pow(x,n)](https://leetcode-cn.com/problems/powx-n/description/) |[C++](Binary_Search/50.Pow(x,n).cc) |Medium|Binary Search|
 |31|[66.加一](https://leetcode-cn.com/problems/plus-one/description/) |[C++](array/66.加一.cc) |Easy|Array|
 |30|[61.旋转链表](https://leetcode-cn.com/problems/rotate-list/description/) |[C++](List/61.旋转链表.cc) |Medium|List|
 |29|[53.最大子序和](https://leetcode-cn.com/problems/maximum-subarray/description/) |[C++](array/53.最大子序和.cc) |Easy|Array|
