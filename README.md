@@ -4,6 +4,10 @@ LeetCode
 
 | # | Title | Solution | Difficulty | Categery |
 |---| ----- | -------- | ---------- | -------  |
+|39|[986.区间列表的交集](https://leetcode-cn.com/contest/weekly-contest-122/problems/interval-list-intersections/) |[C++](Array/986.区间列表的交集.cc) |Medium|TwoPointer|
+|38|[985.查询后的偶数和](https://leetcode-cn.com/contest/weekly-contest-122/problems/sum-of-even-numbers-after-queries/) |[C++](array/985.查询后的偶数和.cc) |Easy|Array|
+|37|[206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/description/) |[C++](List/206.反转链表.cc) |Easy|List|
+|36|[237.删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/description/) |[C++](List/237.删除链表中的节点.cc) |Easy|List|
 |35|[48.旋转图像](https://leetcode-cn.com/problems/rotate-image/description/) |[C++](array/Matrix/48.旋转图像.cc) |Medium|Matrix|
 |34|[144.二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/) |[C++](tree/144.二叉树的前序遍历.cc) |Medium|Tree|
 |33|[684.冗余连接](https://leetcode-cn.com/problems/redundant-connection/description/) |[C++](union_find/684.冗余连接.cc) |Medium|Union_find|
