@@ -4,6 +4,7 @@ LeetCode
 
 | # | Title | Solution | Difficulty | Categery |
 |---| ----- | -------- | ---------- | -------  |
+|40|[989.数组形式的整数加法](https://leetcode-cn.com/contest/weekly-contest-123/problems/add-to-array-form-of-integer/) |[C++](array/989.数组形式的整数加法.cc) |Easy|加法模拟|
 |39|[986.区间列表的交集](https://leetcode-cn.com/contest/weekly-contest-122/problems/interval-list-intersections/) |[C++](Array/986.区间列表的交集.cc) |Medium|TwoPointer|
 |38|[985.查询后的偶数和](https://leetcode-cn.com/contest/weekly-contest-122/problems/sum-of-even-numbers-after-queries/) |[C++](array/985.查询后的偶数和.cc) |Easy|Array|
 |37|[206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/description/) |[C++](List/206.反转链表.cc) |Easy|List|
