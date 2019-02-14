@@ -4,6 +4,8 @@ LeetCode
 
 | # | Title | Solution | Difficulty | Categery |
 |---| ----- | -------- | ---------- | -------  |
+|42|[98.验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/description/) |[C++](tree/98.验证二叉搜索树.cc) |Medium|BST|
+|41|[二叉树的最大深度](https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/7/trees/47/) |[C++](tree/二叉树的最大深度.cc) |Easy|Tree|
 |40|[989.数组形式的整数加法](https://leetcode-cn.com/contest/weekly-contest-123/problems/add-to-array-form-of-integer/) |[C++](array/989.数组形式的整数加法.cc) |Easy|加法模拟|
 |39|[986.区间列表的交集](https://leetcode-cn.com/contest/weekly-contest-122/problems/interval-list-intersections/) |[C++](Array/986.区间列表的交集.cc) |Medium|TwoPointer|
 |38|[985.查询后的偶数和](https://leetcode-cn.com/contest/weekly-contest-122/problems/sum-of-even-numbers-after-queries/) |[C++](array/985.查询后的偶数和.cc) |Easy|Array|
