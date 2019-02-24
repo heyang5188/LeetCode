@@ -28,7 +28,8 @@ else:
     back = "Python"
 # 读取整个文件进入内存
 lines = []
-f = open("F:\\project\\LeetCode\\README.md",
+# F:\Github\LeetCode
+f = open("F:\\Github\\LeetCode\\README.md",
          'r', encoding='utf-8')  # your path!
 for line in f:
     lines.append(line)
@@ -54,7 +55,7 @@ stringToInsert += cate + "|\n"
 print(stringToInsert)
 lines.insert(6,stringToInsert)
 s = ''.join(lines)
-f=open("F:\\project\\LeetCode\\README.md", 'w+', encoding='utf-8')  # 重新写入文件
+f=open("F:\\Github\\LeetCode\\README.md", 'w+', encoding='utf-8')  # 重新写入文件
 f.write(s)
 f.close()
 del lines[:]  # 清空列表

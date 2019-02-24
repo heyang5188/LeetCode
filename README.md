@@ -4,6 +4,7 @@ LeetCode
 
 | # | Title | Solution | Difficulty | Categery |
 |---| ----- | -------- | ---------- | -------  |
+|43|[136.只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/) |[C++](array/136.只出现一次的数字.cc) |Easy|Bit|
 |42|[98.验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/description/) |[C++](tree/98.验证二叉搜索树.cc) |Medium|BST|
 |41|[二叉树的最大深度](https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/7/trees/47/) |[C++](tree/二叉树的最大深度.cc) |Easy|Tree|
 |40|[989.数组形式的整数加法](https://leetcode-cn.com/contest/weekly-contest-123/problems/add-to-array-form-of-integer/) |[C++](array/989.数组形式的整数加法.cc) |Easy|加法模拟|
