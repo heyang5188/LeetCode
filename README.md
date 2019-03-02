@@ -4,6 +4,8 @@ LeetCode
 
 | # | Title | Solution | Difficulty | Categery |
 |---| ----- | -------- | ---------- | -------  |
+|45|[160.相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) |[C++](List/160.相交链表.cc) |Easy|List|
+|44|[234.回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) |[C++](list/234.回文链表.cc) |Easy|List,TWOPOINTER|
 |43|[136.只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/) |[C++](array/136.只出现一次的数字.cc) |Easy|Bit|
 |42|[98.验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/description/) |[C++](tree/98.验证二叉搜索树.cc) |Medium|BST|
 |41|[二叉树的最大深度](https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/7/trees/47/) |[C++](tree/二叉树的最大深度.cc) |Easy|Tree|
