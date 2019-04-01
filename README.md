@@ -4,6 +4,7 @@ LeetCode
 
 | # | Title | Solution | Difficulty | Categery |
 |---| ----- | -------- | ---------- | -------  |
+|47|[198.打家劫舍](https://leetcode-cn.com/classic/problems/house-robber/description/) |[C++](DP/198.打家劫舍.cc) |Easy|DP|
 |46|[62.不同路径](https://leetcode-cn.com/problems/unique-paths/) |[C++](DP/62.不同路径.cc) |Median|DP|
 |45|[160.相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) |[C++](List/160.相交链表.cc) |Easy|List|
 |44|[234.回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) |[C++](list/234.回文链表.cc) |Easy|List,TWOPOINTER|
