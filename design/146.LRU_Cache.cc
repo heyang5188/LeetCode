@@ -4,7 +4,7 @@
 #include <utility>
 using namespace std;
 
-
+/*用list 来表示链表，用哈希表来查找对应的迭代器，其时间复杂度是）O（1）空间复杂度是n*/
 class LRUCache {
 public:
     LRUCache(int capacity)
